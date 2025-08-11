@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="copyright bg-gray-50 text-gray-900 flex items-center justify-center py-2">
+        <div className="copyright bg-gray-100 text-gray-900 flex items-center justify-center py-2">
             <p className="text-center text-xs sm:text-sm">Copyright © 2023 By <a href="#" className="hover:underline"> Loft City</a>. All Rights Reserved</p>
         </div>
     </footer>

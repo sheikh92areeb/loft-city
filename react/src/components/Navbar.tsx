@@ -57,7 +57,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="hidden bg-gray-50 text-gray-900 sm:flex sm:items-center sm:justify-center py-2">
+      <nav className="hidden bg-gray-100 text-gray-900 sm:flex sm:items-center sm:justify-center py-2">
         <ul className="flex border-r px-4 last:border-r-0">
           <NavLinks links={navLinks} liClass="border-r px-4 last:border-r-0" />
         </ul>

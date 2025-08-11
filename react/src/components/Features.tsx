@@ -16,7 +16,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 px-8 md:px-16 lg:px-24 py-4">
+    <div className="bg-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 px-8 md:px-16 lg:px-24 py-4">
       {featuresData.map((feature, index) => (
         <div key={index} className="flex flex-col items-center justify-center gap-4 mb-4">
           <span className="text-4xl font-light">{feature.icon}</span>
