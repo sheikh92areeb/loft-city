@@ -1,8 +1,11 @@
+import Features from "../components/Features"
+import Hero from "../components/Hero"
 
 const Home = () => {
   return (
     <div>        
-      <h1 className="text-4xl font-bold">This is Home Page</h1>      
+      <Hero />
+      <Features />
     </div>
   )
 }
