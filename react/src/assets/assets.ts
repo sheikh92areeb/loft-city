@@ -6,6 +6,12 @@ import card4 from './card-4.jpg'
 import hero from './hero.jpg'
 import bookUs from './book-us.jpg'
 import title from './title.jpg'
+import Map from './map.jpg'
+import MissionDoloresPark from './mission-dolores-park.jpg'
+import Castro from './the-castro.jpg'
+import ChinaTown from './chinatown.jpg'
+import Bridge from './bridge.jpg'
+import Building from './building.jpg'
 
 export const assets = {
     logo,
@@ -16,4 +22,10 @@ export const assets = {
     hero,
     bookUs,
     title,
+    Map,
+    MissionDoloresPark,
+    Castro,
+    ChinaTown,
+    Bridge,
+    Building
 }

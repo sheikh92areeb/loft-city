@@ -1,12 +1,11 @@
-import LocationCard from "../components/LocationCard"
+import Locations from "../components/Locations"
 import Title from "../components/Title"
 
 const NearbyAttractions = () => {
   return (
     <>
       <Title title="Nearby Attractions" />
-      <LocationCard />
-      <LocationCard />
+      <Locations />
     </>
   )
 }
