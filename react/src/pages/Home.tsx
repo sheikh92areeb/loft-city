@@ -16,13 +16,13 @@ const infoPropsData: InfoProps = {
 
 const Home = () => {
   return (
-    <div>        
+    <>
       <Hero />
       <Features />
       <Info heading={infoPropsData.heading} body={infoPropsData.body}/>
       <BookUs />
       <Testimonials />
-    </div>
+    </>
   )
 }
 

@@ -5,6 +5,7 @@ import card3 from './card-3.jpg'
 import card4 from './card-4.jpg'
 import hero from './hero.jpg'
 import bookUs from './book-us.jpg'
+import title from './title.jpg'
 
 export const assets = {
     logo,
@@ -14,4 +15,5 @@ export const assets = {
     card4,
     hero,
     bookUs,
+    title,
 }

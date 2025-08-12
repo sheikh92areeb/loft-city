@@ -1,9 +1,13 @@
+import LocationCard from "../components/LocationCard"
+import Title from "../components/Title"
 
 const NearbyAttractions = () => {
   return (
-    <div>
-      <h1 className="text-4xl font-bold">This is Nearby Attractions Page</h1>
-    </div>
+    <>
+      <Title title="Nearby Attractions" />
+      <LocationCard />
+      <LocationCard />
+    </>
   )
 }
 
