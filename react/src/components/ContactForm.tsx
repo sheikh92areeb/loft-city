@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from "react"
 import { useNavigate } from "react-router"
-
-const contactLinks: Readonly<[string, string, string]> = ['info@loftcity.com', 'booking@loftcity.com', '+1 (345) 789 444']
+import { contactLinks } from "../assets/assets"
 
 const ContactForm = () => {
+    
     const navigate = useNavigate()
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")

@@ -1,24 +1,5 @@
+import { serviceData } from "../assets/assets"
 import ServiceCard from "./ServiceCard"
-
-interface ServiceData {
-    serviceCat: string,
-    serviceList: string[]
-}
-
-const serviceData: ServiceData[] = [
-    {
-        serviceCat: "Communication and entertainment:",
-        serviceList: ["Free WiFi", "ADSL", "LCD TV in all the rooms" ,"International satellite TV", "Landline(*paid service)"]
-    },
-    {
-        serviceCat: "Comfort and security:",
-        serviceList: ["Air condition", "Safe", "Hairdryer", "Bed sheets"]
-    },
-    {
-        serviceCat: "Kitchen",
-        serviceList: ["Fridge", "Multifuctional oven with microwave", "Kettle & coffee maker", "Dishwasher", "Comprehensive set of cutlery,dishes,glasses"]
-    }
-]
 
 const Services = () => {
   return (

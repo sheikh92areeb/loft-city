@@ -1,20 +1,5 @@
 import { NavLink } from "react-router"
-import { assets } from "../assets/assets"
-
-interface QuickLinkItem {
-  path: string
-  linkname: string
-}
-
-const quickLinks: Readonly<QuickLinkItem[]> = [
-    { path: '/', linkname: 'Home' },    
-    { path: '/about', linkname: 'About' },
-    { path: '/contact', linkname: 'Contact' },
-]
-
-const contactLinks: Readonly<[string, string]> = ['info@loftcity.com','+1 (345) 789 444']
-
-const icons: Readonly<string[]> = [assets.card1, assets.card2, assets.card3, assets.card4]
+import { contactLinks, icons, quickLinks } from "../assets/assets"
 
 const Footer = () => {
   return (
@@ -31,8 +16,8 @@ const Footer = () => {
                     <a href={`mailto:${contactLinks[0]}`} className="hover:underline hover:text-gray-300">
                         {contactLinks[0]}
                     </a>
-                    <a href={`tel:${contactLinks[1]}`} className="hover:underline hover:text-gray-300">
-                        {contactLinks[1]}
+                    <a href={`tel:${contactLinks[2]}`} className="hover:underline hover:text-gray-300">
+                        {contactLinks[2]}
                     </a>
                 </div>
             </div>

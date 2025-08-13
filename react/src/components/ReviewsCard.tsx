@@ -1,12 +1,7 @@
 import type { FC } from "react"
 import { FaUser } from "react-icons/fa"
 import { LiaStarSolid } from "react-icons/lia"
-
-interface ReviewsData {
-  review: string,
-  name: string,
-  star: number
-}
+import type { ReviewsData } from "../assets/interfaces"
 
 const ReviewsCard: FC<ReviewsData> = ({ review, name, star }) => {
   return (

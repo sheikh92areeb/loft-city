@@ -1,14 +1,7 @@
 import type { FC } from "react"
+import type { LocationsProps } from "../assets/interfaces"
 
-interface LocationsData {
-  locationName?: string,
-  description: string,
-  image: string,
-  flexRev: boolean,
-}
-
-
-const LocationCard: FC<LocationsData> = ({locationName, description, image, flexRev}) => {
+const LocationCard: FC<LocationsProps> = ({locationName, description, image, flexRev}) => {
   return (
     <div className={`${flexRev ? "bg-white md:flex-row-reverse" : "bg-gray-100 md:flex-row"} flex-col flex justify-between gap-4 px-8 md:px-16 lg:px-24 py-2 mb-5`}>
         <div className="flex-1/2 py-6 px-4">

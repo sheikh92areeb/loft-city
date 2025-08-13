@@ -1,12 +1,4 @@
-import { assets } from "../assets/assets"
-
-const listData: string[] = [
-    '500m to Union Square',
-    '300m to Bart Station',
-    '5 minutes walking to Muni',
-    'Private parking in the same building',
-    'Solarium and terrace on the roof',
-]
+import { assets, bookUsListData } from "../assets/assets"
 
 const BookUs = () => {
   return (
@@ -14,7 +6,7 @@ const BookUs = () => {
       <div>
         <h3 className="text-2xl mb-8">Why book with us:</h3>
         <ul className="list-disc ps-4 md:ps-8">
-            {listData.map((item, index) => (
+            {bookUsListData.map((item, index) => (
                 <li key={index} className="mb-1 text-sm md:text-lg">{item}</li>            
             ))}
         </ul>

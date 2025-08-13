@@ -1,22 +1,8 @@
-import { assets } from '../assets/assets'
+import { assets, navLinks } from '../assets/assets'
 import { MdMenu } from 'react-icons/md'
 import { IoMdClose } from 'react-icons/io'
 import { useState } from 'react'
 import NavLinks from './NavLinks'
-
-
-
-interface NavLinkItem {
-  path: string
-  linkname: string
-}
-
-const navLinks: Readonly<NavLinkItem[]> = [
-  { path: '/', linkname: 'Home' },
-  { path: '/nearby', linkname: 'Nearby Attractions' },
-  { path: '/about', linkname: 'About' },
-  { path: '/contact', linkname: 'Contact' },
-]
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)

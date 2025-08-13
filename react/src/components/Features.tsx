@@ -3,16 +3,15 @@ import { BsLamp } from "react-icons/bs";
 import { CiParking1 } from "react-icons/ci";
 import { SlPlane } from "react-icons/sl";
 import { GiBroom } from "react-icons/gi";
+import type { FeaturesItems } from "../assets/interfaces";
 
-const featuresData = [
+const featuresData: FeaturesItems[] = [
   { icon: <IoWifi />, feature: "Free WiFi" },
   { icon: <BsLamp />, feature: "Fully Furnished" },
   { icon: <CiParking1 />, feature: "Free Parking" },
   { icon: <SlPlane />, feature: "Airport Transfers" },
   { icon: <GiBroom />, feature: "Cleaning Services" },
 ]
-
-
 
 const Features = () => {
   return (

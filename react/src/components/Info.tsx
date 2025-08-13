@@ -1,9 +1,5 @@
 import type { FC } from "react"
-
-interface InfoProps {
-    heading: string,
-    body: string
-}
+import type { InfoProps } from "../assets/interfaces"
 
 const Info: FC<InfoProps> = ({heading, body}) => {
   return (

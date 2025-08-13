@@ -1,9 +1,5 @@
 import type { FC } from "react"
-
-interface ServiceData {
-    serviceCat: string,
-    serviceList: string[]
-}
+import type { ServiceData } from "../assets/interfaces"
 
 const ServiceCard: FC<ServiceData> = ({serviceCat, serviceList}) => {
   return (

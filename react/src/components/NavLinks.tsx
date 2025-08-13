@@ -1,16 +1,6 @@
 import { NavLink } from 'react-router'
 import React from 'react'
-
-interface NavLinkItem {
-  path: string
-  linkname: string
-}
-
-interface NavLinksProps {
-  links: Readonly<NavLinkItem[]>
-  liClass?: string
-  onClick?: () => void // for closing mobile menu on click
-}
+import type { NavLinksProps } from '../assets/interfaces'
 
 const NavLinks: React.FC<NavLinksProps> = ({ links, liClass, onClick }) => {
   return (
