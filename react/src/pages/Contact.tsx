@@ -6,6 +6,7 @@ import Title from "../components/Title"
 const Contact = () => {
 
   const {description, image, flexRev} = contactPageData
+
   return (
     <>
       <Title title="Contact Details" />
