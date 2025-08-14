@@ -9,7 +9,7 @@
 ##  Live Demo
 
 Check out the live version here:  
-[https://loftcity.netlify.app](https://loftcity.netlify.app)
+[loftcity.netlify.app](https://loftcity.netlify.app)
 
 ##  Features
 
