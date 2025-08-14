@@ -35,15 +35,14 @@ Check out the live version here:
    git clone https://github.com/sheikh92areeb/loft-city.git
    cd loft-city/react
    ```
-
 2. Install dependencies:
    ```
    Install dependencies:
    ```
 3. Start the development server:
-  ```
-  npm run dev
-  ```
+   ```
+   npm run dev
+   ```
 4. Open to see your app.
 
 ## Usage
